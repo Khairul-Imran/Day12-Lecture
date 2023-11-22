@@ -1,0 +1,116 @@
+--------------------------------------------Workshop Details--------------------------------------------
+- In spring, there is a static folder, and a template folder, what is the difference?
+
+When do i place files in them?
+- Static -> Generally for static pages only
+- Template -> Dynamic? Go search more.
+
+The page in this workshop can be placed in either static or template.
+
+Validation:
+- Don't allow users to put in special characters 
+- Only allow integers
+
+Use sets -> no duplicated numbers.
+
+Think of how you can map the jpg files to their respective numbers.
+
+Task 1:
+- Form
+- GET
+- Query String
+
+Task 2:
+- Doing a for loop on a page/result
+- How to reference that string returned from your app to show an image in your page?
+  - (your app would initially return strings -> ["number1.jpg", "number4.jpg", "number6.jpg"])
+- Need to somehow concatenate it to your resources....?
+
+Task 3:
+- Deployment -> worth 5-10 marks. Don't waste.
+
+
+--------------------------------------------------Slides------------------------------------------------
+
+- Web apps need to have a business purpose / domain.
+- Web apps are stateless, you have to trigger it to get a connection/response.
+
+URI
+- When you instruct the server, and the server locates the resource for you.
+- It is a url
+
+
+--------------------------------------------------Lecture Example--------------------------------------------------
+He went through the thymeleaf examples from the slides with us 
+- go get his code from his github repo.
+
+
+
+What is a RESTful API?
+- programmes communicating with each other.
+- they expose the api, for other apps to tap in to it
+
+--------------------------------------------------Deploying--------------------------------------------------
+
+Deploying the app. --> see video
+
+terminal -> railway.login
+start from the root directory of the project
+railway init
+Key in project name
+Ensure you change to java 19
+Add a new environment variable inside railway (NIXPACKS_JDK_VERSION)
+
+
+
+
+--------------------------------------------------Workshop 12--------------------------------------------------
+- go and find the code he went through in the lecture, create another folder for that.
+
+-Changed the java version to 17 in the pom file
+- See his repo and video
+
+For thymeleaf:******
+- Best to use data-th
+- not th
+
+*************************************
+
+His code (Controller): 
+- line 50-55 -> for loop to construct the number's file name.
+- line 57 onwards to the while loop line 66 - randomly selects numbers within the range 
+He does some defensive checking too, to ensure that the result is > 0.
+
+- Line 68 -> He iterates over the collection.
+
+(result.html)
+$
+- linked expression
+- Interpolate???
+/images/ + v -> /images/numberxx.jpg
+
+v -> represents each of the selected images
+
+$ -> helps you construct the path to be used by @
+@ -> takes the content inside {} and takes it as a path -> goes to the static folder to retrieve the .jpg file
+@ -> can also be used to generate url with query strings.
+
+******************************************************************Todo
+Model -> Way to transport the result from java that you wanna put into html. Model key to access the value.
+return "string" -> references to the html files in templates, no need extension (return generate -> generate.html)
+Annotations -> it shows that it is part of springboot.
+Dependency injections -> relates to the annotations also.
+
+Find out more about the different things with data-th-....
+Find out more about thymeleaf exressions
+
+
+****refer to the websites for more info
+-------------------------------------------------------Todo-------------------------------------------------------
+- Go through the examples -> understand syntax.***********Priority
+- See if can find assessment stuff in kenneth's github.
+
+
+
+
+********gameify work , learn alot***********
