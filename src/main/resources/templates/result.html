@@ -7,9 +7,9 @@
   </head>
 
   <body>
-    <h1>Your list of <span data-th-text="${noOfGeneratedNo}"></span> random numbers</h1>
+    <h1>Your list of <span data-th-text="${numberOfNumsToGenerate}"></span> random numbers</h1>
     
-    <ul data-th-each="v : ${selectedImgs}">
+    <ul data-th-each="v : ${selectedImages}">
       <img data-th-src="@{${'/images/' + v}}" height="300" width="300"/>
     </ul>
     

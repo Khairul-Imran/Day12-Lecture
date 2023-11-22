@@ -2,14 +2,15 @@ package sg.edu.nus.iss.Day12Lecture.RandomNumberGenerator.Model;
 
 public class Generate {
   // This represents the number of numbers you want to generate.
-  private int numberVal = 0;
+  // It seems like the names of these properties need to be the same when used in the controllers and template files.
+  private int numberValue = 0;
 
-  public int getNumberVal() {
-    return numberVal;
+  public int getNumberValue() {
+    return numberValue;
   }
 
-  public void setNumberVal(int numberVal) {
-    this.numberVal = numberVal;
+  public void setNumberValue(int numberValue) {
+    this.numberValue = numberValue;
   }
   
 }

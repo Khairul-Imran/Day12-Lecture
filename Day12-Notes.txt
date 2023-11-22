@@ -114,6 +114,10 @@ Find out more about thymeleaf exressions
 ****refer to the websites for more info
 -------------------------------------------------------Todo-------------------------------------------------------
 - Go through the examples -> understand syntax.***********Priority
+- Java parts can understand most of it
+  - Need to focus on understanding the Spring-related stuff
+  - Need to focus on understanding the Thymeleaf stuff
+
 - See if can find assessment stuff in kenneth's github.
 
 
