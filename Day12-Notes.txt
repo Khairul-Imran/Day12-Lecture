@@ -65,7 +65,7 @@ Add a new environment variable inside railway (NIXPACKS_JDK_VERSION)
 
 
 --------------------------------------------------Workshop 12--------------------------------------------------
-- go and find the code he went through in the lecture, create another folder for that.
+- go and find the code he went through in the lecture, create another folder for that. (the part before workshop)
 
 -Changed the java version to 17 in the pom file
 - See his repo and video
@@ -75,7 +75,13 @@ For thymeleaf:******
 - not th
 
 *************************************
+The process for the program:
+1. User selects the number of unique numbers they want to generate.
+2. 
 
+
+
+*************************************
 His code (Controller): 
 - line 50-55 -> for loop to construct the number's file name.
 - line 57 onwards to the while loop line 66 - randomly selects numbers within the range 
