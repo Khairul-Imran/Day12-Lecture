@@ -118,6 +118,7 @@ Find out more about thymeleaf exressions
   - Need to focus on understanding the Spring-related stuff
   - Need to focus on understanding the Thymeleaf stuff
   - Understand how all of it connects together (java to the html/thymeleaf)******
+- Add some new features to test understanding *******
 
 - See if can find assessment stuff in kenneth's github.
 
